@@ -1,3 +1,5 @@
+![Cover](visuals/cover.png)
+
 # 🤖 AI Data Analyst Agent
 
 > Automated data analysis pipeline powered by Claude AI.
