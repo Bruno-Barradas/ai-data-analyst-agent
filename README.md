@@ -9,61 +9,55 @@
 
 ## 🌐 Live Demo
 
-👉 **Try the app here:**  
-https://ai-data-analyst-agent-md8e7tomwp2t4kvjmjw9ss.streamlit.app/
+👉 https://ai-data-analyst-agent-md8e7tomwp2t4kvjmjw9ss.streamlit.app/
 
 ---
 
 ## 🎯 Business Problem
 
-Data analysts spend **60–80% of their time** on repetitive exploratory tasks:
-- cleaning datasets  
-- generating basic statistics  
-- building initial charts  
-- identifying patterns manually  
+Data analysts spend 60–80% of their time on repetitive tasks like:
+- cleaning data
+- creating charts
+- running basic analysis
 
-This creates a bottleneck between **data availability and decision-making**.
+This delays decision-making.
 
 ---
 
 ## 💡 Solution
 
-This AI Agent automates the entire exploratory phase, transforming raw datasets into:
+This AI Agent automates everything and delivers:
+- statistical analysis  
+- charts  
+- AI insights  
+- final report  
 
-- structured statistical analysis  
-- professional visualizations  
-- AI-generated business insights  
-- ready-to-use reports  
-
-⚡ All in under **60 seconds**
-
----
-
-## ⚡ What It Does Automatically
-
-| Step | Output |
-|------|--------|
-| Data Loading | Detects types, cleans nulls, parses dates |
-| Statistical EDA | Descriptive stats, skewness, kurtosis |
-| Correlation Analysis | Top variable relationships |
-| Outlier Detection | IQR-based anomaly flagging |
-| Visualizations | 4 professional charts saved to /visuals |
-| AI Insights | Claude API generates executive report |
-| Report Export | Markdown report saved to /reports |
+⚡ in less than 60 seconds
 
 ---
 
-## 🖥️ Streamlit Interface
+## ⚡ What It Does
 
-The project also includes a **web interface** built with Streamlit, allowing users to:
-
-- upload datasets directly  
-- run automated analysis  
-- visualize results instantly  
-- access insights without coding  
-
-This demonstrates the transition from **data script → data product**.
+- Loads and cleans data  
+- Runs full EDA  
+- Finds correlations  
+- Detects outliers  
+- Creates charts  
+- Generates AI insights  
+- Exports report  
 
 ---
 
-## 📊 Sample Output
+## 📊 Visuals
+
+![Sample 01](visuals/sample_01.png)
+![Sample 02](visuals/sample_02.png)
+![Dashboard](visuals/dashboard.png)
+
+---
+
+## 🚀 Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
