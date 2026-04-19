@@ -2,20 +2,42 @@
 
 # 🤖 AI Data Analyst Agent
 
-> Automated data analysis pipeline powered by Claude AI.
-> Run once, get full insights — EDA, statistics, visualizations, and AI-generated recommendations.
+> Automated data analysis pipeline powered by AI  
+> Run once, get full insights — EDA, statistics, visualizations, and business recommendations.
 
-```bash
-python ai_analyst.py your_dataset.csv
-```
+---
+
+## 🌐 Live Demo
+
+👉 **Try the app here:**  
+https://ai-data-analyst-agent-md8e7tomwp2t4kvjmjw9ss.streamlit.app/
 
 ---
 
 ## 🎯 Business Problem
 
-Data analysts spend 60–80% of their time on repetitive EDA tasks.
-This agent automates the entire exploratory phase, delivering structured
-insights and actionable recommendations in under 60 seconds.
+Data analysts spend **60–80% of their time** on repetitive exploratory tasks:
+- cleaning datasets  
+- generating basic statistics  
+- building initial charts  
+- identifying patterns manually  
+
+This creates a bottleneck between **data availability and decision-making**.
+
+---
+
+## 💡 Solution
+
+This AI Agent automates the entire exploratory phase, transforming raw datasets into:
+
+- structured statistical analysis  
+- professional visualizations  
+- AI-generated business insights  
+- ready-to-use reports  
+
+⚡ All in under **60 seconds**
+
+---
 
 ## ⚡ What It Does Automatically
 
@@ -29,74 +51,19 @@ insights and actionable recommendations in under 60 seconds.
 | AI Insights | Claude API generates executive report |
 | Report Export | Markdown report saved to /reports |
 
-## 🚀 Quick Start
+---
 
-```bash
-# 1. Clone
-git clone https://github.com/YOUR_USERNAME/ai-data-analyst-agent
-cd ai-data-analyst-agent
+## 🖥️ Streamlit Interface
 
-# 2. Install dependencies
-pip install -r requirements.txt
+The project also includes a **web interface** built with Streamlit, allowing users to:
 
-# 3. Set your API key
-cp .env.example .env
-# Edit .env and add your Anthropic API key
+- upload datasets directly  
+- run automated analysis  
+- visualize results instantly  
+- access insights without coding  
 
-# 4. Generate sample dataset
-python data/generate_dataset.py
+This demonstrates the transition from **data script → data product**.
 
-# 5. Run the agent
-python ai_analyst.py data/sample_dataset.csv
-```
+---
 
 ## 📊 Sample Output
-
-```
-🤖 AI Data Analyst Agent
-========================================
-📂 Loading: data/sample_dataset.csv
-   ✓ 50,000 rows × 12 columns
-   ✓ Numeric: ['quantity', 'unit_price', 'revenue', ...]
-   ✓ Categorical: ['product_category', 'region', ...]
-
-📊 Statistical analysis...
-   ✓ Full EDA complete
-
-🎨 Generating visualizations...
-   📊 4 charts saved in /visuals/
-
-🧠 Querying Claude API for insights...
-   ✓ AI insights generated
-
-✅ Report saved: reports/analysis_report_20240315_143022.md
-```
-
-## 🛠️ Tech Stack
-
-- **Python 3.10+** — core language
-- **Pandas / NumPy** — data manipulation
-- **Matplotlib / Seaborn** — visualizations
-- **Anthropic Claude API** — AI-powered insights
-- **python-dotenv** — environment management
-
-## 📁 Project Structure
-
-```
-ai-data-analyst-agent/
-├── ai_analyst.py       # Main CLI script
-├── requirements.txt
-├── .env.example
-├── src/
-│   ├── data_loader.py  # Load & clean
-│   ├── analyzer.py     # Statistical analysis
-│   └── visualizer.py   # Chart generation
-├── data/
-│   └── sample_dataset.csv
-├── visuals/            # Generated charts
-└── reports/            # Generated reports
-```
-
-## 📬 Contact
-
-Bruno Barradas — [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
